@@ -1,0 +1,8 @@
+package Ejercicio19;
+
+public class Acero extends Armadura{
+	public  int defenderseContraArma(Arma arma) {
+		return arma.pelearContra(this);
+	}
+	
+}
